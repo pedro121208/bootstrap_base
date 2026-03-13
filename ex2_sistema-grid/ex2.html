@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Bootstrap</title>
+    <!-- CSS do bootstrap via CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -28,6 +32,20 @@
         <div class="row">
             <div class="col-sm-6 bg-primary">Coluna1</div>
             <div class="col-sm-6 bg-secondary">Coluna2</div>
+        </div>
+
+        <!-- Linha com colunas diferentes -->
+         <div class="row my-3">
+            <!-- Primeira coluna da linha -->
+            <div class="bg-custom col-md-7 mb-4">
+                <h2>Meu Título</h2>
+                <p>Texto responsivo perfeito.</p>
+            </div>
+
+            <!-- Segunda coluna da linha -->
+            <div class=" bg-danger col-md-6">
+                <img src="https://placehold.co/200x100" alt="Imagem">
+            </div>
         </div>
      </div>
 
